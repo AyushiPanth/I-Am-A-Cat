@@ -1,0 +1,22 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(
+    MaterialApp(
+      home: Scaffold(
+        body: Center(
+        child: Image(
+        image: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTFxOceLoqj_kq_oSQUE07-43w50e5bUD55S4wizTfJeBJ3Lc7E&usqp=CAU'),
+        ),
+        ),
+        backgroundColor: Colors.blueGrey[100],
+        appBar: AppBar(
+        title: Text('I Am Rich'),
+          backgroundColor: Colors.blueGrey[900],
+        ),
+      ),
+    ),
+);
+}
+
+
